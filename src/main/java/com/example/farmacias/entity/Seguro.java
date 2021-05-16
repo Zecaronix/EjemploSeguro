@@ -13,7 +13,7 @@ public class Seguro
 {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue (strategy = GenerationType.AUTO)
     private Integer Id;
 
     @Column(name = "tipo_seguro")
