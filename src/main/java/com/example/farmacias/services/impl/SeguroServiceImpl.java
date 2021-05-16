@@ -23,6 +23,8 @@ public class SeguroServiceImpl implements SeguroService
 
         seguroList = seguroRepository.findAll();
 
+        //hola GIT
+
         return seguroList;
     }
 }
